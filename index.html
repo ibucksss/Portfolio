@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./images/logo-6.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- start of nav header -->
+    <nav>
+      <div class="logo">
+        <img src="./images/logo-2.png" alt="" />
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a class="nav-link" href="#home" class="nav-link scroll-link">Home</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#about" class="nav-link scroll-link"
+            >About</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#projects" class="nav-link scroll-link"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#contact" class="nav-link scroll-link"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
+    </nav>
+
+    <!-- Start of main landing page -->
+    <div class="main-container">
+      <div class="main-left flex-child-main">
+        <div class="title">
+          <p id="message"></p>
+        </div>
+        <div class="info">
+          <p>Front-end web developer and designer.</p>
+          <a
+            href="https://drive.google.com/file/d/1qqOu186JcaqNI3m47US_W3VzLZZ587dg/view?usp=sharing"
+            class="hvr-bounce-to-bottom"
+            >Resume</a
+          >
+          <a href="https://www.linkedin.com/in/iankbuckles"
+            ><i class="fa-brands fa-linkedin-in liicon btn"></i
+          ></a>
+          <a href="https://github.com/ibucksss?tab=repositories"
+            ><i class="fa-brands fa-github btn"></i
+          ></a>
+        </div>
+      </div>
+      <div class="main-right flex-child-main">
+        <img src="images/AvatarMaker.svg" alt="" />
+      </div>
+    </div>
+    <!-- End of main landing page -->
+    <!-- Start of About Me -->
+    <div class="about-container" id="about">
+      <div class="about-title">
+        <h2>About Me.</h2>
+        <div class="about-underline underline"></div>
+      </div>
+
+      <div class="about-section-1">
+        <p class="about-paragraph indent">
+          I am Ian, a student studying Computer Science at
+        </p>
+        <p class="about-paragraph flair-text">Southern Illinois University</p>
+        <p class="about-paragraph">
+          . I have been coding for about 3 years and have enjoyed every moment
+          of it. In my free time I enjoy 3D printing, playing board games and
+          hiking.
+        </p>
+      </div>
+      <div class="about-section-2">
+        <h2 class="section-2-title">Skills</h2>
+        <div class="skills-underline"></div>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="./images/html2.png" alt="" />
+            <p>HTML</p>
+          </div>
+          <div class="skill">
+            <img src="./images/css2.webp" alt="" />
+            <p>CSS</p>
+          </div>
+          <div class="skill">
+            <img src="./images/js2t.png" alt="" />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <img src="./images/react1.png" alt="" />
+            <p>React</p>
+          </div>
+          <div class="skill">
+            <img src="./images/java-logo-1.png" alt="" />
+            <p>Java</p>
+          </div>
+          <div class="skill">
+            <img src="./images/python.png" alt="" />
+            <p>Python</p>
+          </div>
+          <div class="skill">
+            <img src="./images/vscode.png" alt="" />
+            <p>VS Code</p>
+          </div>
+          <div class="skill">
+            <img src="./images/figma.png" alt="" />
+            <p>Figma</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of About Me -->
+    <!-- Start of Projects -->
+    <div class="projects-title-container" id="projects">
+      <div class="project-title">
+        <p>Projects</p>
+        <div class="underline project-underline"></div>
+      </div>
+    </div>
+
+    <div class="projects-container">
+      <div class="projects">
+        <!-- start of project -->
+        <div class="project-container">
+          <div class="project-image project-flex-child">
+            <img src="./images/backroad-image.png" alt="" />
+          </div>
+          <div class="project-text project-flex-child">
+            <h2>Backroads Tour</h2>
+            <p>Technology Used:</p>
+            <p class="project-flair-text">HTML, CSS, JavaScript</p>
+            <ul>
+              <li>Travel website including pictures of desinations.</li>
+              <li>Optimized for mobile devices</li>
+              <li>First site I ever built!</li>
+            </ul>
+            <div class="project-links project-link-container">
+              <h3 class="project-live">
+                <a href="https://ianstours.netlify.app/">Live</a>
+              </h3>
+              <h3 class="project-repo">
+                <a
+                  href="https://github.com/ibucksss/Backroad-Tour-Website-flexbox"
+                  >Repo</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- end of project -->
+        <!-- start of project -->
+        <div class="project-container">
+          <div class="project-image project-flex-child">
+            <img src="./images/piggame.png" alt="" />
+          </div>
+          <div class="project-text project-flex-child">
+            <h2>Pig Game</h2>
+            <p>Technology Used:</p>
+            <p class="project-flair-text">JavaScript, HTML, CSS</p>
+            <ul>
+              <li>Game made with 100% vanilla JavaScript</li>
+              <li>Roll dice if a 1 is rolled loss all your points</li>
+              <li>Hold to bank your current score</li>
+            </ul>
+            <div class="project-links">
+              <h3 class="project-live">
+                <a href="https://ianpiggame.netlify.app/">Live</a>
+              </h3>
+
+              <h3 class="project-repo">
+                <a href="https://github.com/ibucksss/Pig-Game">Repo</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- end of project -->
+        <!-- start of project -->
+        <div class="project-container">
+          <div class="project-image project-flex-child">
+            <img src="./images/cssdesk.png" alt="" />
+          </div>
+          <div class="project-text project-flex-child">
+            <h2>CSS Desk</h2>
+            <p>Technology Used:</p>
+            <p class="project-flair-text">CSS, HTML</p>
+            <ul>
+              <li>Fun, quick project to sharpen my CSS skills</li>
+              <li>CSS art of my desk</li>
+              <li>Uses only HTML and CSS</li>
+            </ul>
+            <div class="project-links">
+              <h3 class="project-live">
+                <a href="https://mycssartdesk.netlify.app/">Live</a>
+              </h3>
+              <h3 class="project-repo">
+                <a href="https://github.com/ibucksss/CSS-Art-Desk">Repo</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- end of project -->
+      </div>
+    </div>
+
+    <!-- end of projects -->
+    <!-- start of contact -->
+    <div class="contact-container">
+      <div class="title-container" id="contact">
+        <p class="contact-title">Get in touch</p>
+        <div class="contact-underline underline"></div>
+      </div>
+      <div class="contact-paragraph-container">
+        <p class="contact-paragraph">
+          If you want to get in contact about anything at all or just say hello,
+          fill the form out below or feel free to email me at
+        </p>
+        <p class="flair-text contact-paragraph">ibuckssss@gmail.com</p>
+        <p class="contact-paragraph">.</p>
+      </div>
+      <div class="contact-form">
+        <form action="https://formspree.io/f/mbjwkjoe" method="POST" id="form">
+          <input
+            class="form-element email-border"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
+
+          <textarea
+            class="form-element"
+            name="form-message"
+            name="message"
+            id="form-message"
+            placeholder="Enter your message here..."
+          ></textarea>
+          <button class="form-btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-container">
+      <p class="copyright">
+        Copyright &copy; Ian Buckles <span id="date"></span> All Rights Reserved
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
